@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "918E0862-1A38-4E9A-B856-435596B9B113",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "AppTests",
+        "name" : "AppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "ModelsTests",
+        "name" : "ModelsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "MarvelCharactersTests",
+        "name" : "MarvelCharactersTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "CharacterComicsTests",
+        "name" : "CharacterComicsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
